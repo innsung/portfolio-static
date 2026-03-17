@@ -444,7 +444,12 @@ a.header-menu-item.active {
 /***************************************************
     media screen : 1px ~ 600px
 ***************************************************/
-@media screen and (max-width:360px) {
+@media screen and (max-width:600px) {
+    .projects {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (device-width:384px) {
     .projects {
         grid-template-columns: repeat(1, 1fr);
     }
